@@ -1,0 +1,37 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp
+
+# Optional eslint cache
+/.eslintcache
+
+# Next.js
+.next
+/cache
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Build artifacts
+.out
+/build
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Local development config files
+local.config.json

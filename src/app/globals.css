@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 10, 10, 10;
+  --primary: #3b82f6; /* Blue-500 */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  font-family: 'Literata', serif;
+}
+
+/* Typography adjustments for Slovak legal content */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-weight: 600;
+}
+
+/* Main content area */
+.main-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Legal document styling */
+.legal-document {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Citation section */
+.citation-info {
+  background-color: #f3f4f6;
+  border-left: 4px solid var(--primary);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Disclaimer notice */
+.disclaimer {
+  background-color: #fef3c6;
+  border-left: 4px solid #f59e0b;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Search bar styling */
+.search-bar {
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 0.5rem;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+}
