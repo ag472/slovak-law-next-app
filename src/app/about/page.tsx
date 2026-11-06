@@ -1,4 +1,4 @@
-import './About.css';
+// CSS import removed - using Tailwind classes directly
 
 export default function AboutPage() {
   return (

@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import './LegalDocument.css';
+// CSS import removed - using Tailwind classes directly
 
 export interface LegalDocument {
   id: string;

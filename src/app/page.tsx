@@ -1,5 +1,5 @@
-import SearchBar from '@/components/SearchBar';
-import './HomePage.css';
+import SearchBar from '../components/SearchBar';
+// CSS import removed - using Tailwind classes directly
 
 export default function HomePage() {
   const handleSearch = (query: string) => {

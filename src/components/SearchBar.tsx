@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import './SearchBar.css';
+// CSS import removed - using Tailwind classes directly
 
 export default function SearchBar({ onSearch }: { 
   onSearch: (query: string) => void; 

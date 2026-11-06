@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { mockLegalDocuments } from '@/lib/legalData';
+import { mockLegalDocuments } from '../lib/legalData.ts';
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
