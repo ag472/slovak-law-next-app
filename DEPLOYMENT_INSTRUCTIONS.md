@@ -46,6 +46,7 @@ git add .
 
 # Commit everything  
 git commit -m "Fresh deployment: Slovak Law Next.js with all Vercel fixes"
+# Updated 2026-11-07
 
 # Push to your fresh GitHub repo (you'll need to provide credentials)
 git push -u origin main
