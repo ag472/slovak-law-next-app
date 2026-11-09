@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global resets and base styles */
+body {
+  font-family: system-ui, sans-serif;
+  background: #f9fafb;
+}
+
